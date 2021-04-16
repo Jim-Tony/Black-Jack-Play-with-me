@@ -1,0 +1,68 @@
+#abc{
+    background-image: url('images/back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container4{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.black-jack-card-row,.black-jack-button-row,.black-jack-result-row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.black-jack-card-row,.black-jack-button-row{
+    background-image: url(./images/image-green.jpg); 
+    color:ivory;
+}
+.black-jack-card-row>div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex :1;
+}
+.black-jack-card-row img{
+    width: 19%;
+    padding: 10px;
+}
+.black-jack-result-row th,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+.black-jack-result-row{
+    background-color: greenyellow;
+}
+.div1{
+    padding-top: 15px;
+}
+.glow-button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 15px 40px;
+    border-radius: 4000px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    /* border-radius: 5000px; */
+    /* margin-bottom: -250px; */
+    margin-top: 200px;
+    
+  }
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 255);
+    box-shadow: 0 5px 15px rgba(255, 255, 182, .4);
+  }
+  

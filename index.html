@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body id  ="abc">
+   
+<div class="div1"><a href="https://youtu.be/Qqx_wzMmFeA?t=16866" target="_blank" class = "button glow-button">How to play</a></div>
+    <div class = "container4">
+        <h2 style="background-color: cornsilk ;">Blackjack Game with Tony</h2>
+        <h3 style="background-color: cornsilk ;"><span id = "bj-result">Let's play!!</span></h3>
+        <div class= "black-jack-card-row">
+            <div id = "your-box">
+                <h2>You:<span id = "black-jack-your-result">0</span></h2>
+            </div>
+            <div id = "Dealer-box">
+                <h2>Tony:<span id = "black-jack-dealer-result">0</span></h2>
+            </div>
+        </div>
+        <div class = "black-jack-button-row">
+            <button class="btn-lg btn-primary mr-2" id = "button-hit">Hit</button>
+            <button class="btn-lg btn-warning mr-2" id = "button-stand">Stand</button>
+            <button class="btn-lg btn-danger mr-2" id = "button-deal">Deal</button>
+
+        </div>
+        <div class="black-jack-result-row">
+            <table style="border: 2px solid black;">
+                <tr style="border: 2px solid black;">
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+            </tr>
+                <tr style="border: 2px solid black;">
+                    <td><span id = "black-jack-wins">0</span></td>
+                    <td><span id = "black-jack-losses">0</span></td>
+                    <td><span id = "black-jack-draws">0</span></td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="bjgame.js" defer></script>
+
+
+</html>
